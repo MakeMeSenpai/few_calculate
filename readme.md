@@ -1,3 +1,5 @@
+# less then 30 minutes to create a calculator with css and html
+
 # HTML and CSS Assessment
 
 You need to make a calculator. When Completed it should look like this: 

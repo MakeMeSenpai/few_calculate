@@ -1,0 +1,116 @@
+.background{
+    background-color: rgb(57, 56, 56);
+}
+
+.minimize {
+    margin-top: -15px;
+    padding:25px;
+    justify-content: space-evenly;
+    width: 320px;
+    height: 50px;
+}
+
+#x{
+    display: inline-block;
+    background-color: rgb(72, 79, 87);
+    color: rgb(72, 79, 87);
+    font-size: 25px;
+    text-align: center;
+    width: 32px;
+    height: 32px;
+    border-style: solid;
+    border-radius: 75%;
+    border-color: rgba(0);
+}
+#i{
+    display: inline-block;
+    background-color: rgb(72, 79, 87);
+    color: rgb(72, 79, 87);
+    font-size: 25px;
+    text-align: center;
+    width: 32px;
+    height: 32px;
+    border-style: solid;
+    border-radius: 75%;
+    border-color: rgba(0);
+}
+#t{
+    display: inline-block;
+    background-color:  rgb(72, 79, 87);
+    color: rgb(72, 79, 87);
+    font-size: 25px;
+    text-align: center;
+    width: 32px;
+    height: 32px;
+    border-style: solid;
+    border-radius: 75%;
+    border-color: rgba(0);
+
+}
+
+#x :hover{
+    display: inline-block;
+    background-color: red;
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    width: 32px;
+    height: 32px;
+    border-style: solid;
+    border-radius: 75%;
+    border-color: rgba(0);
+}
+#i :hover{
+    display: inline-block;
+    background-color: yellow;
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    width: 32px;
+    height: 32px;
+    border-style: solid;
+    border-radius: 75%;
+    border-color: rgba(0);
+}
+#t :hover{
+    display: inline-block;
+    background-color: greenyellow;
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    width: 32px;
+    height: 32px;
+    border-style: solid;
+    border-radius: 75%;
+    border-color: rgba(0);
+}
+
+.num{
+    margin-top: -50px;
+    margin-left: 1250px;
+    color: white;
+    font-size: 100px;
+}
+
+.container {
+    display: grid;
+    color: white;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1em; /*this code is obsolete, avoid using grid-gap*/
+    grid-template-areas: "a a a b"
+                         "c c c b"
+                         "c c c b"
+                         "c c c b";
+}
+
+.a {
+    background-color: rgb(99, 99, 99);
+}
+
+.b{
+    background-color: rgb(255, 162, 0);
+}
+
+.c{
+    background-color: rgb(140, 139, 139);
+}
